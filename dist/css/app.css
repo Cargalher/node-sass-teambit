@@ -15,38 +15,37 @@ body {
   color: #58402C;
 }
 
-.navbar {
+#site_header .navbar {
   display: flex;
   justify-content: space-between;
   padding: 20px;
   border-bottom: 1px solid gray;
 }
-
-.jumbotron {
+#site_header .navbar a {
+  text-decoration: none;
+  color: #58402C;
+  padding: 0 10px;
+}
+#site_header .jumbotron {
   display: flex;
   justify-content: space-between;
 }
-
-.jumbo_left {
-  padding: 65px 0;
-  width: 147%;
-}
-
-h1 {
+#site_header .jumbotron h1 {
   line-height: 60px;
   font-size: 40px;
 }
-
-.jumbo_text {
+#site_header .jumbotron .jumbo_left {
+  padding: 65px 0;
+  width: 147%;
+}
+#site_header .jumbotron .jumbo_text {
   line-height: 35px;
 }
-
-.jumbo_right {
+#site_header .jumbotron .jumbo_right {
   display: flex;
   justify-content: flex-end;
 }
-
-.jumbo_img {
+#site_header .jumbotron .jumbo_img {
   width: 100%;
   -o-object-fit: contain;
      object-fit: contain;
