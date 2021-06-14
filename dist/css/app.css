@@ -76,8 +76,35 @@ body {
   border: transparent;
   margin-top: 35px;
   margin-bottom: 20px;
+  font-weight: 600;
 }
 #site_header .jumbotron span {
   font-size: 13px;
   font-weight: 400;
+}
+
+#site_main {
+  background-color: #FFE7D2;
+  padding: 20px 0;
+}
+#site_main h2 {
+  text-align: center;
+  font-size: 22px;
+}
+#site_main img {
+  width: 11%;
+}
+#site_main .disengagement {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+#site_main .disengagement_bunny {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid gray;
+  padding-bottom: 7rem;
+}
+#site_main .bunny_img {
+  width: 20%;
 }
