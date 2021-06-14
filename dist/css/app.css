@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap);
 * {
   box-sizing: border-box;
   margin: 0;
@@ -9,10 +10,44 @@
   margin: auto;
 }
 
-/* variables */
+body {
+  font-family: "Roboto", sans-serif;
+  color: #58402C;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
   padding: 20px;
   border-bottom: 1px solid gray;
+}
+
+.jumbotron {
+  display: flex;
+  justify-content: space-between;
+}
+
+.jumbo_left {
+  padding: 65px 0;
+  width: 147%;
+}
+
+h1 {
+  line-height: 60px;
+  font-size: 40px;
+}
+
+.jumbo_text {
+  line-height: 35px;
+}
+
+.jumbo_right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.jumbo_img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
 }

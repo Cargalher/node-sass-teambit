@@ -6,20 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teambit</title>
     <link rel="stylesheet" href="./dist/css/app.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
+        integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
 </head>
 <body>
-    <header>
+    <header id="site_header">
         <nav class="navbar container">
             <img src="./src/img/logo.svg" alt="">
             <div class="nav_links">
-                <a href="#">Solution</a>
+                <a href="#">Solution <i class="fas fa-chevron-down"></i></a>
                 <a href="#">Pricing</a>
                 <a href="#">Blog</a>
                 <a href="#">Sign in</a>
                 <button>Sign up</button>
             </div>
         </nav>
-        <div class="jumbotron"></div>
+        <div class="jumbotron container">
+            <div class="jumbo_left">
+                <h1>Understand, recognize and develop your people</h1>
+                <p class="jumbo_text">Teambit helps teams create a high performing culture with regular feedback</p>
+                <div>
+                    <button>Sign up with Google</button>
+                    <span> or </span>
+                    <button>Sign up with Slack</button>
+                </div>
+                <span>or use your email address <i class="fas fa-arrow-right"></i> </span>
+            </div>
+            <div class="jumbo_right">
+                <img class="jumbo_img" src="./dist/img/illustration-main.jpg" alt="">
+            </div>
+        </div>
     </header>
     <script src="./dist/js/app.js"></script>
 </body>

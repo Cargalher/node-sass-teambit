@@ -1,0 +1,32 @@
+//   header
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 1px solid gray;
+  }
+  .jumbotron{
+    display: flex;
+    justify-content: space-between;
+  }
+  .jumbo_left{
+    padding: 65px 0;
+    width: 147%;
+  }
+  h1{
+    line-height: 60px;
+    font-size: 40px;
+  }
+  .jumbo_text{
+    line-height: 35px;
+  }
+  
+  .jumbo_right{
+    display: flex;
+    justify-content: flex-end;
+    
+  }
+  .jumbo_img{
+    width: 100%;
+    object-fit: contain;
+  }
