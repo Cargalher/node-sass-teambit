@@ -1,21 +1,36 @@
 //   header
 #site_header{
-    
+    .logo{
+        width: 21px;
+    }
     .navbar{
         display: flex;
         justify-content: space-between;
-        padding: 20px;
+        flex-wrap: wrap;
+        padding-top: 20px;
+        padding-bottom: 8px;
         border-bottom: 1px solid gray;
+        font-weight: 600;
+        font-size: 14px;
         a{
             text-decoration:none ;
             color: $primaryColor ;
             padding: 0 10px;
+            font-size: 14px;
+        }
+        .sign_nav_btn{
+            border:1px solid $coloured_btn;
+            padding: 10px 13px;
+            color:$coloured_btn;
+            font-weight: 600;
+            background-color: white;
+            border-radius: 5px;
         }
     }
 
     .jumbotron{
         display: flex;
-        justify-content: space-between;
+       
         h1{
             line-height: 60px;
             font-size:  $size_title;
@@ -26,6 +41,8 @@
         }
         .jumbo_text{
             line-height: 35px;
+            font-weight: 500;
+            font-size: 19px;
         }
           
         .jumbo_right{
@@ -34,8 +51,25 @@
             
         }
         .jumbo_img{
-            width: 100%;
-            object-fit: contain;
+            // width: 100%;
+            // object-fit: contain;
+            width:  $widthJumbo;
+            height: $heightJumbo;
+            margin: auto;
+            margin-top: 100px;
+        }
+        .sign_jumbo_btn{
+            background-color: $coloured_btn;
+            padding: 8px 10px;
+            color: white;
+            border-radius: 5px;
+            border: transparent;
+            margin-top: 35px;
+            margin-bottom: 20px;
+        }
+        span{
+            font-size: 13px;
+            font-weight: 400;
         }
 
     }       

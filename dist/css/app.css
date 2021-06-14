@@ -15,20 +15,35 @@ body {
   color: #58402C;
 }
 
+#site_header .logo {
+  width: 21px;
+}
 #site_header .navbar {
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  padding-bottom: 8px;
   border-bottom: 1px solid gray;
+  font-weight: 600;
+  font-size: 14px;
 }
 #site_header .navbar a {
   text-decoration: none;
   color: #58402C;
   padding: 0 10px;
+  font-size: 14px;
+}
+#site_header .navbar .sign_nav_btn {
+  border: 1px solid #2C4792;
+  padding: 10px 13px;
+  color: #2C4792;
+  font-weight: 600;
+  background-color: white;
+  border-radius: 5px;
 }
 #site_header .jumbotron {
   display: flex;
-  justify-content: space-between;
 }
 #site_header .jumbotron h1 {
   line-height: 60px;
@@ -40,13 +55,29 @@ body {
 }
 #site_header .jumbotron .jumbo_text {
   line-height: 35px;
+  font-weight: 500;
+  font-size: 19px;
 }
 #site_header .jumbotron .jumbo_right {
   display: flex;
   justify-content: flex-end;
 }
 #site_header .jumbotron .jumbo_img {
-  width: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
+  width: 85%;
+  height: 600px;
+  margin: auto;
+  margin-top: 100px;
+}
+#site_header .jumbotron .sign_jumbo_btn {
+  background-color: #2C4792;
+  padding: 8px 10px;
+  color: white;
+  border-radius: 5px;
+  border: transparent;
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
+#site_header .jumbotron span {
+  font-size: 13px;
+  font-weight: 400;
 }
