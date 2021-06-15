@@ -1,27 +1,38 @@
 #site_main{
     background-color:$main_bg_color;
-    padding:20px 0;
-    h2{
-        text-align: center;
-        font-size:  $size_secondaryTitle;
+    padding:50px 0;
+    .first_section{
         
+            h2{
+                text-align: center;
+                font-size: 25px;
+                margin-bottom: 2rem;
+                line-height: 42px;
+            }
+            img{
+                height: 140px;
+            }
+            .cons, .pros{
+                display: flex;
+                justify-content: space-around;
+                padding: 20px;
+            }
+            .cons_bunny, .pros_bunny{
+                display: flex;
+                justify-content: center; 
+                padding-bottom: 7rem;
+            }
+            .cons_bunny{
+                border-bottom: 1px solid gray;
+            }
+            .bunny_img{
+                height: 190px;
+            }
+            .pt_7{
+                padding-top: 7rem;
+            }
+
     }
-    img{
-       width:11%;
-    }
-    .disengagement{
-        display: flex;
-        justify-content: space-around;
-        padding: 20px;
-    }
-    .disengagement_bunny{
-        display: flex;
-        justify-content: center; 
-        border-bottom: 1px solid gray;
-        padding-bottom: 7rem;
-    }
-    .bunny_img{
-        width: 20%;
-    }
+       
     
 }

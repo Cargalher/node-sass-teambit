@@ -85,26 +85,33 @@ body {
 
 #site_main {
   background-color: #FFE7D2;
-  padding: 20px 0;
+  padding: 50px 0;
 }
-#site_main h2 {
+#site_main .first_section h2 {
   text-align: center;
-  font-size: 22px;
+  font-size: 25px;
+  margin-bottom: 2rem;
+  line-height: 42px;
 }
-#site_main img {
-  width: 11%;
+#site_main .first_section img {
+  height: 140px;
 }
-#site_main .disengagement {
+#site_main .first_section .cons, #site_main .first_section .pros {
   display: flex;
   justify-content: space-around;
   padding: 20px;
 }
-#site_main .disengagement_bunny {
+#site_main .first_section .cons_bunny, #site_main .first_section .pros_bunny {
   display: flex;
   justify-content: center;
-  border-bottom: 1px solid gray;
   padding-bottom: 7rem;
 }
-#site_main .bunny_img {
-  width: 20%;
+#site_main .first_section .cons_bunny {
+  border-bottom: 1px solid gray;
+}
+#site_main .first_section .bunny_img {
+  height: 190px;
+}
+#site_main .first_section .pt_7 {
+  padding-top: 7rem;
 }
